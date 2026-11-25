@@ -36,7 +36,7 @@ Tag: CONFIRMED · NATURE — Map: Jiuquan, China
 ### 6 — N. AMERICA · TECH LAW
 Headline: Oregon and Virginia sue SpaceX over Grok images
 Dek: States say the chatbot made child sexual abuse images and non-consensual pictures.
-Tag: REPORTED · ANC — Map: Virginia, USA
+Tag: CLAIM · ANC — Map: Virginia, USA
 
 ### 7 — GLOBAL · PHARMA
 Headline: Sanofi to buy Insmed for $41bn
@@ -81,7 +81,7 @@ Tag: REPORTED · DAILY STAR — Map: Dhaka
 ### 15 — EUROPE · TRADE
 Headline: EU to cap Chinese hybrid car imports
 Dek: Cap of 191,780 cars from 1 Dec to 18 June under provisional safeguards.
-Tag: CONFIRMED · SUMARKET — Map: Brussels
+Tag: CONFIRMED · GUARDIAN — Map: Brussels
 
 ## BRIEFS (38)
 
@@ -114,18 +114,18 @@ Tag: CONFIRMED · SUMARKET — Map: Brussels
 39. South Korea: $375,000 rewards to catch AI exam cheats (WSJ)
 40. Nepal: 5.4 quake shakes Nepal and neighbours (ANI)
 41. Indian Ocean: M6.4 quake east of Mauritius; no tsunami threat (USGS)
-42. Climate: COP31 post-mortems land; Reuters asks what now after the flop (Reuters)
+42. Climate: Reuters asks what now after COP31 flop (Reuters)
 43. ISS: Crew runs biomedical research; Watkins sequences microbe DNA (NASA)
 44. Science: Trauma leaves molecular scars in brain cells, study finds (Nature)
 45. Science: Menopause may speed brain ageing, studies suggest (Nature)
-46. Culture: GTA VI posts $3.79bn first-day sales, a record (Standard Topic)
+46. Markets: German Ifo business mood steadies (Newsquawk)
 47. Culture: ATEEZ score fourth No. 1 album with Golden Hour Part 6 (Billboard)
 48. Culture: Marvel drops final 'Avengers: Doomsday' trailer (Seven Lights)
-49. Culture: Macy's Thanksgiving parade marks 100th anniversary (Standard Topic)
+49. Sport: Arya's 181 powers Delhi win (Cricinfo)
 50. Sport: Sooryavanshi smashes 204 off 53 balls for India A (SportzCraazy)
 51. Sport: Brentford beat Everton 4-0; Lewis-Potter scores twice (GalaxySports)
 52. Markets: Tesla and SpaceX directors weigh $3.5tn merger (SuMarket)
-53. Markets: Anthropic falls below $83 IPO price as AI stocks slide (OneTurn)
+53. Markets: AI stocks slide after Monday's surge (OneTurn)
 
 ## THE DAY IN UTC (timeline, 7 events)
 - 01:32 — Nepal quake, 5.4
@@ -154,6 +154,12 @@ Tag: CONFIRMED · SUMARKET — Map: Brussels
 War, Markets, Space, Tech, Business, Defence, Justice, Sport, Health, Trade,
 Politics, Diplomacy, Climate, Science, Culture, Crime, Disasters, Energy,
 Economy, Education.
+
+## BRIEF TIERS
+Brief number badges are coloured by verification tier: green CONFIRMED (24),
+amber REPORTED (12), red CLAIM (2: 31 Iran's terms, 32 Houthis' toll). Panel 6
+(Oregon/Virginia v. SpaceX) carries a CLAIM tag: the suit is filed, the
+underlying facts are allegations, not independently confirmed.
 
 ## SOURCES
 Reuters, AP, AFP, The New York Times, The Wall Street Journal, Nature, NASA,
