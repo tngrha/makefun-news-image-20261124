@@ -59,7 +59,7 @@ PANELS = [
      "CONFIRMED", "NATURE", 100.3, 40.9, "station"),
     (6, "N. AMERICA · TECH LAW", "Oregon and Virginia sue SpaceX over Grok images",
      "States say the chatbot made child sexual abuse images and non-consensual pictures.",
-     "REPORTED", "ANC", -77.5, 37.5, "gavel"),
+     "CLAIM", "ANC", -77.5, 37.5, "gavel"),
     (7, "GLOBAL · PHARMA", "Sanofi to buy Insmed for $41bn",
      "Cash deal is the biggest drug deal since 2023; Insmed shares jump 14%.",
      "CONFIRMED", "ONETURN", 2.35, 48.85, "pill"),
@@ -86,50 +86,50 @@ PANELS = [
      "REPORTED", "DAILY STAR", 90.4, 23.8, "virus"),
     (15, "EUROPE · TRADE", "EU to cap Chinese hybrid car imports",
      "Cap of 191,780 cars from 1 Dec to 18 June under provisional safeguards.",
-     "CONFIRMED", "SUMARKET", 4.35, 50.85, "car"),
+     "CONFIRMED", "GUARDIAN", 4.35, 50.85, "car"),
 ]
 
 BRIEFS_A = [
-    (16, "US: Huckabee doubts Israel aid ends this year"),
-    (17, "US: FBI deputy Raia to retire by year-end"),
-    (18, "US: Senate probes Vance role in Vitol oil deal"),
-    (19, "US: Court revives Trump hush-money transfer"),
-    (20, "US: Paxton drops cases against two doctors"),
-    (21, "US: Pennsylvania measles claims ninth death"),
-    (22, "Mexico: 'El Chapo Isidro' to be tried at home"),
-    (23, "Colombia: Car bomb wrecks buildings in Villavicencio"),
-    (24, "Brazil: 2027 growth forecast cut to 1.8%"),
-    (25, "Brazil: Grêmio beat Santos 2-0"),
-    (26, "DRC: Fighting traps Ebola teams in Ituri"),
-    (27, "Somalia, Uganda step up anti-Shabaab drive"),
-    (28, "Libya: Tripoli seeks answers from Kyiv"),
-    (29, "Iraq: Baghdad to run Kurdish-area oilfields"),
-    (30, "Iran: Singer Parastoo Ahmadi given 74 lashes"),
-    (31, "Iran: No talks until US meets seven terms"),
-    (32, "Yemen: Houthis say dozens killed in strikes"),
-    (33, "US: Citizen wrongly deported, filings say"),
-    (34, "US: Army to blow up Iowa explosives cache"),
+    (16, "US: Huckabee doubts Israel aid ends this year", "Reuters", "CONFIRMED"),
+    (17, "US: FBI deputy Raia to retire by year-end", "NYT", "CONFIRMED"),
+    (18, "US: Senate probes Vance role in Vitol oil deal", "Reuters", "CONFIRMED"),
+    (19, "US: Court revives Trump hush-money transfer", "NYT", "CONFIRMED"),
+    (20, "US: Paxton drops cases against two doctors", "AP", "CONFIRMED"),
+    (21, "US: Pennsylvania measles claims ninth death", "Horizon", "REPORTED"),
+    (22, "Mexico: 'El Chapo Isidro' to be tried at home", "Horizon", "REPORTED"),
+    (23, "Colombia: Car bomb wrecks buildings in Villavicencio", "Hindu", "CONFIRMED"),
+    (24, "Brazil: 2027 growth forecast cut to 1.8%", "OneTurn", "REPORTED"),
+    (25, "Brazil: Grêmio beat Santos 2-0", "ScoreZaap", "REPORTED"),
+    (26, "DRC: Fighting traps Ebola teams in Ituri", "UN News", "CONFIRMED"),
+    (27, "Somalia, Uganda step up anti-Shabaab drive", "iqmia", "REPORTED"),
+    (28, "Libya: Tripoli seeks answers from Kyiv", "Horizon", "REPORTED"),
+    (29, "Iraq: Baghdad to run Kurdish-area oilfields", "Reuters", "CONFIRMED"),
+    (30, "Iran: Singer Parastoo Ahmadi given 74 lashes", "Horizon", "REPORTED"),
+    (31, "Iran: No talks until US meets seven terms", "Horizon", "CLAIM"),
+    (32, "Yemen: Houthis say dozens killed in strikes", "Horizon", "CLAIM"),
+    (33, "US: Citizen wrongly deported, filings say", "The Hill", "CONFIRMED"),
+    (34, "US: Army to blow up Iowa explosives cache", "NYT", "CONFIRMED"),
 ]
 BRIEFS_B = [
-    (35, "Norway: Dialogue open with Ukraine: minister"),
-    (36, "Latvia: War may hit tipping point next year"),
-    (37, "Japan: Full 2027 ICC payment early: Takaichi"),
-    (38, "Bangladesh: Hasina plans 16 Dec return"),
-    (39, "S. Korea: $375,000 rewards for AI exam cheats"),
-    (40, "Nepal: 5.4 quake shakes Nepal, neighbours"),
-    (41, "Indian Ocean: M6.4 quake; no tsunami threat"),
-    (42, "Climate: COP31 post-mortems land after flop"),
-    (43, "ISS: Crew runs biomedical research in orbit"),
-    (44, "Science: Trauma leaves scars in brain cells"),
-    (45, "Science: Menopause may speed brain ageing"),
-    (46, "Culture: GTA VI posts $3.79bn first-day sales"),
-    (47, "Culture: ATEEZ score fourth No. 1 album"),
-    (48, "Culture: Final 'Avengers: Doomsday' trailer"),
-    (49, "Culture: Macy's parade marks 100th year"),
-    (50, "Sport: Sooryavanshi smashes 204 off 53 balls"),
-    (51, "Sport: Brentford beat Everton 4-0"),
-    (52, "Markets: Tesla, SpaceX weigh $3.5tn merger"),
-    (53, "Markets: Anthropic falls below IPO price"),
+    (35, "Norway: Dialogue open with Ukraine: minister", "Reuters", "CONFIRMED"),
+    (36, "Latvia: War may hit tipping point next year", "Reuters", "CONFIRMED"),
+    (37, "Japan: Full 2027 ICC payment early: Takaichi", "Reuters", "CONFIRMED"),
+    (38, "Bangladesh: Hasina plans 16 Dec return", "Reuters", "CONFIRMED"),
+    (39, "S. Korea: $375,000 rewards for AI exam cheats", "WSJ", "CONFIRMED"),
+    (40, "Nepal: 5.4 quake shakes Nepal, neighbours", "ANI", "CONFIRMED"),
+    (41, "Indian Ocean: M6.4 quake; no tsunami threat", "USGS", "CONFIRMED"),
+    (42, "Climate: Reuters asks what now after COP31 flop", "Reuters", "CONFIRMED"),
+    (43, "ISS: Crew runs biomedical research in orbit", "NASA", "CONFIRMED"),
+    (44, "Science: Trauma leaves scars in brain cells", "Nature", "CONFIRMED"),
+    (45, "Science: Menopause may speed brain ageing", "Nature", "CONFIRMED"),
+    (46, "Markets: German Ifo business mood steadies", "Newsquawk", "CONFIRMED"),
+    (47, "Culture: ATEEZ score fourth No. 1 album", "Billboard", "CONFIRMED"),
+    (48, "Culture: Final 'Avengers: Doomsday' trailer", "7 Lights", "REPORTED"),
+    (49, "Sport: Arya's 181 powers Delhi win", "Cricinfo", "CONFIRMED"),
+    (50, "Sport: Sooryavanshi smashes 204 off 53 balls", "SportzCraazy", "REPORTED"),
+    (51, "Sport: Brentford beat Everton 4-0", "GalaxySports", "REPORTED"),
+    (52, "Markets: Tesla, SpaceX weigh $3.5tn merger", "SuMarket", "REPORTED"),
+    (53, "Markets: AI stocks slide after Monday's surge", "OneTurn", "REPORTED"),
 ]
 
 TIMELINE = [
@@ -580,23 +580,27 @@ def build():
     bf = font(SERIF, 11)
     for ci, briefs in enumerate([BRIEFS_A, BRIEFS_B]):
         bx = 352 + ci * 331
-        for j, (num, txt) in enumerate(briefs):
+        for j, (num, txt, srcname, tier) in enumerate(briefs):
             yy = 712 + j * 13
-            d.ellipse([bx, yy + 1, bx + 12, yy + 13], fill=RED)
+            d.ellipse([bx, yy + 1, bx + 12, yy + 13], fill=tag_color(tier))
             nf = font(SANS_B, 8)
             t = str(num)
             d.text((bx + 6 - text_w(d, t, nf) / 2, yy + 2), t, font=nf, fill="white")
             fnt = bf
-            while text_w(d, txt, fnt) > 325 - 18 and fnt.size > 9:
+            while text_w(d, txt + " · " + srcname, fnt) > 325 - 18 and fnt.size > 9:
                 fnt = font(SERIF, fnt.size - 1)
             d.text((bx + 17, yy), txt, font=fnt, fill=INK)
+            d.text((bx + 17 + text_w(d, txt, fnt), yy), " · " + srcname,
+                   font=fnt, fill=GREY)
 
     # ---- footer
-    fy = 976
-    d.text((MX, fy), "Every story here happened or was first reported on Tuesday 24 November 2026. "
-                     "CLAIM = one side's account, not independently confirmed.",
+    fy = 966
+    d.text((MX, fy), "Every story here happened or was first reported on Tuesday 24 November 2026.",
            font=font(SERIF_I, 10), fill=(60, 54, 46))
-    d.text((MX, fy + 14), "Sources: Reuters, AP, AFP, NYT, WSJ, Nature, NASA, USGS, Cricinfo, "
+    d.text((MX, fy + 13), "CLAIM = one side's account, not independently confirmed. Brief badges: "
+                          "green CONFIRMED · amber REPORTED · red CLAIM.",
+           font=font(SERIF_I, 10), fill=(60, 54, 46))
+    d.text((MX, fy + 26), "Sources: Reuters, AP, AFP, NYT, WSJ, Nature, NASA, USGS, Cricinfo, "
                           "Kyiv Independent, Horizon, OneTurn, SuMarket. Original drawings.",
            font=font(SERIF, 9), fill=GREY)
     return img
